@@ -2,6 +2,7 @@
 font-family: 'Poppins', sans-serif;
 backgroud sections EFF4FE
 color buttons: 1D4672
+rewatch 13:00
 */
 h1 {
   font-family: "Playfair Display", serif;
@@ -16,6 +17,7 @@ p {
 .hero {
   background-color: #eff4fe;
   text-align: center;
+  padding: 160px 160px;
 }
 .hero h3 {
   font-family: "Poppins", sans-serif;
