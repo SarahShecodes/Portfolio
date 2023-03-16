@@ -81,6 +81,10 @@ p {
 .content p {
   font-size: 14px;
 }
+
+.active {
+  color: var(--secondary-color);
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
