@@ -46,7 +46,7 @@ p {
 .btn-branding {
   background-color: var(--branding-color);
   border-radius: 4px;
-  color: #c7d7f7;
+  color: #f4f5f8;
   font-size: 18px;
   line-height: 27px;
   padding: 20px 30px;
@@ -85,6 +85,33 @@ p {
 .active {
   color: var(--secondary-color);
 }
+.contact-box {
+  background-color: var(--background-color-sections);
+  padding: 30px;
+  border-radius: 10px;
+}
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: rgb(65, 65, 184);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--background-color-sections);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--secondary-color);
+}
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
@@ -109,5 +136,14 @@ p {
   }
   .content-container h1 {
     font-size: 50px;
+  }
+  .contact-box {
+    padding: 0px;
+  }
+  .contact-box h3 {
+    font-size: 30px;
+  }
+  .contact-box .btn-branding {
+    font-size: 8px;
   }
 }
