@@ -11,7 +11,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: bold;
-  color: black;
+  color: white;
   line-height: 1.5;
 }
 h3 {
@@ -25,7 +25,11 @@ p {
   line-height: 30px;
 }
 .hero {
-  background-color: var(--background-color-sections);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url("../images/bg2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
   padding: 80px 20px;
 }
@@ -41,7 +45,7 @@ p {
   font-size: 24px;
   margin-top: 28px;
   line-height: 2;
-  color: var(--secondary-color);
+  color: white;
 }
 .btn-branding {
   background-color: var(--branding-color);
