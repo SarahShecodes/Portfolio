@@ -94,6 +94,11 @@ p {
   padding: 30px;
   border-radius: 10px;
 }
+.resume {
+  font-size: 22px;
+  text-decoration: none;
+  color: #272142;
+}
 footer .email-link {
   text-decoration: none;
   color: var(--secondary-color);
